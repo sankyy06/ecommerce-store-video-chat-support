@@ -9,11 +9,10 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 font-semibold text-base-content">
               <TruckIcon className="size-8 text-primary" aria-hidden />
-              Northwind Supply
+              Sanky's Store
             </div>
             <p className="mt-3 text-sm leading-relaxed text-base-content/65">
-              Curated hardware and workspace tools. Paid orders include priority support; chat with
-              our team and join a video call when we share a link.
+              Your everyday destination for electronics, accessories, home essentials, and more.
             </p>
           </div>
 
@@ -65,7 +64,7 @@ export default function Footer() {
 
         <div className="mt-10 space-y-4 border-t border-base-300 pt-6">
           <p className="text-center text-xs text-base-content/50">
-            © {new Date().getFullYear()} Northwind Supply · All prices in USD
+            © {new Date().getFullYear()} Sanky's Store · All prices in INR
           </p>
         </div>
       </div>
